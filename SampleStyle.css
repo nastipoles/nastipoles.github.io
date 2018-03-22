@@ -1,65 +1,46 @@
-body { background: url(../images/фон1.jpg); 
+body { background: url(../images/С„РѕРЅ1.jpg); 
 background-attachment: fixed; }
 
 div {
     background: white; 
     color: black;
     padding: 10px; 
+    
     -webkit-border-radius: 5px;
     border-radius: 5px; 
-	left: 50px;
+left: 50px;
    }
 
 .block1 { 
     width: 90%; 
+    
     background: rgba(255,255,255,0.7);
     padding: 5px;
     padding-right: 20px; 
     border: solid 1px black; 
     float: centre;
  position: absolute;
-	top: 150px;
-
+rgba: (0,0,0, 0.5);
    }
 .block2 { 
-    width: 70%; 
+    width: 800px; 
+    height: 1000px;
     background: rgba(255,255,255,0.1); 
-    padding: 1px;                              
+    padding: 1px; 
     border: solid 1px none; 
     float: right; 
     position: relative; 
-    top: -180px; 
-    left: -12%;
-
+    top: -190px; 
+    left: -150px;
    }
-.block3 { 
-    width: 90%; 
-    top: 5%;
-    background: white;
-    padding: 1%;
-    padding-right: 20px; 
-    border: solid 1px black; 
-    float: centre;
-    position: absolute;
-    text-align:  right;
-	}
-.block4 {
-      width: 70%; 
-    background: rgba(255,255,255,0.1); 
-    padding: 1px;                               
-    border: solid 1px none; 
-    float: right; 
-    position: relative; 
-    top: 20%; 
-    left: -29%;
-}
+
 h1 {color: #2F4F4F; text-align: left;
     font-family:  fantasy;}
 h2 {color: #2F4F4F; text-align: left;
     font-family:  franklin gothic medium;}
 
 
-#navbar {
+ #navbar {
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -69,7 +50,7 @@ h2 {color: #2F4F4F; text-align: left;
         border-left: 10px solid #D2691E;
         border-bottom: 1px solid black;
 	border-radius: 5px;
-       }
+      }
       #navbar a {
         background-color: #5F9EA0;
         color: black;
